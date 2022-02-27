@@ -1,98 +1,112 @@
 *{
     margin:0;
+    padding: 0;
 }
-.header{
-    padding: 10px;
-    background-color: #1f2937;
+
+/*--------------------------Decoration------------------------------------------*/
+.links{
+    list-style-type: none;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.second-header{
-    background-color: #1f2937;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 20px;   
+    font-size: 18px;
 }
 a{
     text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
- }
-
-ul{
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-}
-.left{
-    font-size: 24px;
     color: #f9faf8;
-    display: flex;
-    justify-content: center;
 }
-.right{
-    gap: 20px;
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+/*--------------------------top HEADER---------------------------------------------*/
+.top-header{
+    background-color: #1f2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+/*--------------------------bottom HEADER---------------------------------------------*/
+
+
+
+
+/*-------------------------------------------------------------------
+
+*{
+    margin:0;
+    padding: 0;
 }
 body{
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
-.content{
-    flex: 1 1 auto;
-}
-.footer{
-    padding: 20px;
-    font-size: 10px;
-    background-color: #1f2937;
+/*--------------------------Decoration------------------------------------------
+.links{
+    list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #E5E7EB;
+    gap: 20px;   
 }
-
-.second-right{
-    height: 200px;
-    width: 300px;
+a{
+    text-decoration: none;
+    color: #f9faf8;
 }
-.photo{
-    width: 100%;
-    height: auto;
+/*--------------------------HEADER---------------------------------------------
+.header{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 180px;  
 }
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+/*--------------------------bottom HEADER----------------------------------------
 .title{
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
 }
-button{
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    background-color: #3882f6;
-    color: #f9faf8;
+.text{
+    color: #f9faf8; 
+}
+.second-header{
+    background-color: #1f2937;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 180px;
 }
 
+
+
+
+
+.placeholder{
+    height: 50px;
+    width: 100px;
+    background-color: #555;
+}
+.holded{
+    height: auto;
+    width: auto;
+}
+
+
+
+
 /*
-.header{
-    background-color: #1f2937;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-.header-right{
-    color: #E5E7EB;
- }
-.header-left{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-    }
+
+
 .footer{
     padding: 20px;
     font-size: 10px;
@@ -103,14 +117,7 @@ button{
     color: #E5E7EB;
 } */
 /*
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-.content{
-    flex: 1;
-}
+
 .header-second{
     background-color: #1f2937;
     padding: 10px;
