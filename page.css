@@ -2,24 +2,30 @@
     margin:0;
     padding: 0;
 }
-
 /*--------------------------Decoration------------------------------------------*/
 .links{
     list-style-type: none;
     display: flex;
-    flex: 1;
-    justify-content: flex-end;
     gap: 20px;   
     font-size: 18px;
 }
 a{
     text-decoration: none;
-    color: #f9faf8;
 }
 .logo{
     font-size: 24px;
     font-weight: bold;
-    color: #f9faf8;
+}
+.text,
+.button-header,
+.title,
+.logo,
+a{
+    color: #f9faf8; 
+}
+.title{
+    font-size: 48px;
+    font-weight: bold;
 }
 /*--------------------------top HEADER---------------------------------------------*/
 .top-header{
@@ -27,13 +33,55 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 300px;
 }
 /*--------------------------bottom HEADER---------------------------------------------*/
+.bottom-header{
+    background-color: #1f2937;
+    padding: 10px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+}
+button{
+    background-color: #3882f6;
+    padding: 8px 25px;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dimgray;
+    border-radius: 8px;
+    height: 200px;
+    width: 500px;
+}
+.left{  
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+/*----------------if we use an image instead of grey-------------------------------------
+
+.holded{
+    height: 100%;
+    width: 100%;
+}
+
+our image will be distored, arg..
+-----------------------------------------------------------------------------------------*/
 
 
 
 
-/*-------------------------------------------------------------------
+
+
 
 *{
     margin:0;
