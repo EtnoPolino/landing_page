@@ -79,7 +79,8 @@ button{
     width: 100%;
 }
 our image will be distored, arg...*/
-/*----------------------------core content-------------------------------------------------*/
+/*----------------------------core content----------------------------------------------------------*/
+        /*--------------------content one--------------*/
 .content{
     flex: 1;
 }
@@ -112,8 +113,32 @@ our image will be distored, arg...*/
     align-items: center;
     gap: 100px;
 }
-
-
+        /*--------------------content two--------------*/
+span{
+    font-weight: bold;
+}
+.speech{
+    padding-top: 40px;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    width: 50%;
+}
+.content-two{
+    padding : 20px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.name{
+    text-align: right;
+    width: 50%;
+    padding-bottom: 40px;
+}
 
 
 /*----------------------------Footer-------------------------------------------------------*/
