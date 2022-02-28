@@ -25,6 +25,7 @@ a{
 .button-header,
 .title,
 .logo,
+.butt-bottom,
 a{
     color: #f9faf8; 
 }
@@ -43,7 +44,7 @@ a{
 /*--------------------------bottom HEADER---------------------------------------------*/
 .bottom-header{
     background-color: #1f2937;
-    padding: 10px 300px;
+    padding: 50px 300px 80px 300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -139,8 +140,25 @@ span{
     width: 50%;
     padding-bottom: 40px;
 }
-
-
+        /*--------------------content two--------------*/
+.bottom .action{
+    color: #E5E7EB;
+    font-size: 25px;
+    font-weight: bold;           
+}
+.butt-bottom{
+    border: 2px solid #E5E7EB;
+}        
+.content-bottom{
+    margin: 70px 300px;
+    border-radius: 10px; 
+    padding: 40px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
 /*----------------------------Footer-------------------------------------------------------*/
 .footer{
     padding: 20px;
